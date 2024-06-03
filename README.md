@@ -23,7 +23,8 @@ The purpose of this repository is to document my progress as I work through the 
 
 1. **Clone this repository**:
    
-    git clone https://github.com/your-username/Rustlings-Solutions.git
+    git clone https://github.com/Nelly-Njeri/RustlingsSolutions.git
+
     cd Rustlings-Solutions
 
 2. **Navigate to the topic folder** you are interested in:
@@ -31,7 +32,9 @@ The purpose of this repository is to document my progress as I work through the 
     cd variables
    
 
-3. **Open and review the exercise solutions** to compare with your own solutions or to seek guidance.
+3. **Open and review the exercise solutions** 
+
+to compare with your own solutions or to seek guidance.
 
 ## Original Rustlings Repository
 
