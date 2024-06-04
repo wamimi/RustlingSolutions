@@ -54,3 +54,12 @@ mod tests {
         assert_eq!(animal_habitat("dinosaur"), "Unknown")
     }
 }
+// in this exercise, I learned about:
+
+// Consistent Types: Ensuring all branches of a conditional return the same type.
+// Using Identifiers: Using integer identifiers to map to different values.
+// Conditional Logic: Implementing multiple conditions using if-else chains
+// Key Takeaways:
+
+// Consistency: Using consistent types in conditional expressions.
+// Conditional Mapping: Mapping identifiers to specific values using conditional logic.
