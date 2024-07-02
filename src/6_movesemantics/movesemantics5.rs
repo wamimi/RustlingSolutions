@@ -11,11 +11,12 @@
 #[test]
 fn main() {
     let mut x = 100;
-    let y = &mut x;
-    let z = &mut x;
-    *y += 100;
-    *z += 1000;
-    assert_eq!(x, 1200);
+    let y = &mut x;  // Take a mutable reference to `x`
+    *y += 100;       // Immediately use `y` to add 100 to `x`
+    let z = &mut x;  // Now that `y` is no longer used, we can re-borrow `x` as `z`
+    *z += 1000;      // Use `z` to add 1000 to `x`
+    assert_eq!(x, 1200);  // Check that `x` is now 1200
+
 }
 /*
 Key Concepts Learned:
