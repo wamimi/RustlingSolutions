@@ -40,7 +40,7 @@ So far, I have solved the following sections:
 
 1. **Clone this repository**:
    
-    git clone https://github.com/Nelly-Njeri/RustlingsSolutions.git
+    git clone https://github.com/Nelly-Njeri/RustlingSolutions.git
 
     cd Rustlings-Solutions
 
