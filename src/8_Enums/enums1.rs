@@ -7,7 +7,8 @@
 Key Learning Objectives
 Enum Basics:
 
-Learned how to define an enum in Rust with multiple variants. This is crucial for representing a set of related values compactly and safely.
+Learned how to define an enum in Rust with multiple variants. 
+This is crucial for representing a set of related values compactly and safely.
 Debugging with Enums:
 
 Explored the importance of the Debug trait for enums, which allows printing enum variants for debugging purposes, using the {:?} formatter.
@@ -18,7 +19,8 @@ Learning Highlights
 Understanding Debug vs. Display:
 
 Debug Trait: Allows for quick debugging outputs of any form, making it simpler to inspect the state of enum values during development.
-Display Trait: Unlike Debug, Display is meant for user-facing outputs and requires manual implementation to tailor the output format. It’s used when you need more control over how information is presented to the end user.
+Display Trait: Unlike Debug, Display is meant for user-facing outputs and requires manual implementation to tailor the output format. 
+It’s used when you need more control over how information is presented to the end user.
 Practical Application:
 
 Utilized println! with the {:?} formatter to demonstrate how enums can be logged or debugged in applications, reinforcing the practicality of enums in handling multiple predefined states effectively.
