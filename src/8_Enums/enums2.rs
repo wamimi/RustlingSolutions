@@ -25,10 +25,15 @@ Implemented a method on the enum to utilize the Debug trait for printing purpose
 #[derive(Debug)]
 enum Message {
     // TODO: define the different variants used below
-    Move { x: i32, y: i32 },
+    Move { x: i32, y: i32 }, 
+    // Move { x: i32, y: i32 }: Represents a message to move, containing two integers as coordinates.
     Echo(String),
+    // Echo(String): Contains a string message, demonstrating how enums can encapsulate different data types.
     ChangeColor(i32,i32,i32),
+    // ChangeColor(i32, i32, i32): Holds three integers representing color values (likely RGB).
     Quit,
+    // Quit: A simple signal without associated data, indicating an action to stop or exit.
+
 }
 
 impl Message {
