@@ -36,6 +36,8 @@ So far, I have solved the following sections:
     - Learning about ownership, references, and borrowing which are foundational to Rust's memory safety guarantees.
     - [Ownership](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
     - [Reference and borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+7. **Structs**
+    
 ## How to Use
 
 1. **Clone this repository**:
